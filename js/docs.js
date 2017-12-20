@@ -103,7 +103,7 @@ function walkTree(tree)
       walkTree(collectionsTOC[tree[j].generateTOC])
     } else {
       // just a regular old topic; this is a leaf, not a branch; render a link!
-      outputLetNav.push('<li><a href="' + tree[j].path + '"')
+      outputLetNav.push('<li><a href="/docs-korean-docker' + tree[j].path + '"')
       if (tree[j].path == pageURL && !tree[j].nosync)
       {
         sectionToHighlight = currentSection;
