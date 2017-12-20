@@ -149,14 +149,14 @@ so we added a custom ID above the target heading.
 
 - A big wide image: ![a pretty wide image](/images/banner_image_24512.png)
 
-- The same as above but using HTML: <img src="/images/banner_image_24512.png" alt="a pretty wide image using HTML"/>
+- The same as above but using HTML: <img src="{{ site.baseurl }}/images/banner_image_24512.png" alt="a pretty wide image using HTML"/>
 
 [Some Bootstrap image classes](https://v4-alpha.getbootstrap.com/content/images/)
 might be interesting. You can use them with Markdown or HTML images.
 
 - An image using the Bootstrap "thumbnail" class: ![an image as a thumbnail](/images/footer_moby_icon.png){: class="img-thumbnail" }
 
-- The same one, but using HTML: <img class="img-thumbnail" src="/images/footer_moby_icon.png" alt="a pretty wide image as a thumbnail, using HTML"/>
+- The same one, but using HTML: <img class="img-thumbnail" src="{{ site.baseurl }}/images/footer_moby_icon.png" alt="a pretty wide image as a thumbnail, using HTML"/>
 
 ## Videos
 
