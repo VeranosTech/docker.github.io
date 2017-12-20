@@ -1,4 +1,4 @@
-{% capture green-check %}![yes](/engine/installation/images/green-check.svg){: style="height: 14px; display: inline-block"}{% endcapture %}
+{% capture green-check %}![yes]({{ site.baseurl }}/engine/installation/images/green-check.svg){: style="height: 14px; display: inline-block"}{% endcapture %}
 {% capture superscript-link %}[1](#edge-footnote){: style="vertical-align: super; font-size: smaller;" }{% endcapture %}
 {: style="width: 75%" }
 
