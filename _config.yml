@@ -207,3 +207,6 @@ defaults:
 sass:
   sass_dir:          _scss
   style:            :compressed
+
+
+baseurl: /docs-korean-docker
