@@ -1,7 +1,7 @@
 <!-- Page generated {{ site.time }} -->
 <!-- relative link basehrefs -->
 {% if page.path contains "index.md" %}
-	{% capture basehref %}{{ page.url }}{% endcapture %}
+	{% capture basehref %}{{ site.baseurl }}{{ page.url }}{% endcapture %}
 {% else %}
 	{% assign crumbs = page.url | split: '/' %}
 	{% assign stoppingpoint = crumbs | size | minus: 1 %}
@@ -103,11 +103,11 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="{{ page.description }}" />
 <meta property="og:description" content="{{ page.description }}" />
-<link rel="canonical" href="{{ page.url }}" />
-<meta property="og:url" content="https://docs.docker.com{{ page.url }}" />
+<link rel="canonical" href="{{ site.baseurl }}{{ page.url }}" />
+<meta property="og:url" content="https://docs.docker.com{{ site.baseurl }}{{ page.url }}" />
 <meta property="og:site_name" content="Docker Documentation" />
 <script type="application/ld+json">
-{"@context":"http://schema.org","@type":"WebPage","headline":"{{ page.title }}","description":"{{ page.description }}","url":"https://docs.docker.com{{ page.url }}"}</script>
+{"@context":"http://schema.org","@type":"WebPage","headline":"{{ page.title }}","description":"{{ page.description }}","url":"https://docs.docker.com{{ site.baseurl }}{{ page.url }}"}</script>
 	<!-- END SEO STUFF -->
 	{% if page.hide_from_sitemap %}<meta name="robots" content="noindex" />{% endif %}
 	<script language="javascript">
@@ -197,7 +197,7 @@
 							for (i = 0; i < x; i++) {
 							  var munged = false;
 							  var thisHREF = document.links[i].href;
-							  var originalURL = "{{ page.url }}";
+							  var originalURL = "{{ site.baseurl }}{{ page.url }}";
 							  if (thisHREF.indexOf(baseHref + "#") > -1) {
 							    // hash fix
 							    //console.log('BEFORE: base:',baseHref,'thisHREF:',thisHREF,'originalURL:',originalURL);
@@ -248,7 +248,7 @@
 									<ul>
 										{% if edit_url != "" %}
 										<li style="visibility: hidden"><a href="{{ edit_url }}"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit this page</a></li>{% endif %}
-										<li><a href="https://github.com/docker/docker.github.io/issues/new?assignee={% if page.assignee %}{{ page.assignee }}{% else %}{{ page.defaultassignee }}{% endif %}&body=File: [{{ page.path }}](https://docs.docker.com{{ page.url }}), CC @{{ assignee }}"
+										<li><a href="https://github.com/docker/docker.github.io/issues/new?assignee={% if page.assignee %}{{ page.assignee }}{% else %}{{ page.defaultassignee }}{% endif %}&body=File: [{{ page.path }}](https://docs.docker.com{{ site.baseurl }}{{ page.url }}), CC @{{ assignee }}"
 															class="nomunge"><i class="fa fa-check" aria-hidden="true"></i> Request docs changes</a></li>
 										<li><a href="https://www.docker.com/docker-support-services"><i class="fa fa-question" aria-hidden="true"></i> Get support</a></li>
 										<!-- toggle mode -->
@@ -312,7 +312,7 @@
 	// See js/archive.js and js/docs.js for logic relating to this
 	var isArchive = true;
 	var dockerVersion = 'v{{ site.docker_ce_stable_version }}';
-	var pageURL = '{{ page.url }}';
+	var pageURL = '{{ site.baseurl }}{{ page.url }}';
 	</script>
 	<script src="{{ site.baseurl }}/js/archive.js"></script>
 	<script src="{{ site.baseurl }}/js/stickyfill.min.js"></script>
