@@ -17,7 +17,7 @@ Try our new multi-part walkthrough that covers writing your first app,
 data storage, networking, and swarms, and ends with your app running on
 production servers in the cloud. Total reading time is less than an hour.
 
-[Get started with Docker](/get-started/){: class="button outline-btn"}
+[Get started with Docker]({{ site.baseurl }}/get-started/){: class="button outline-btn"}
 
 </div>
 <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
@@ -50,7 +50,7 @@ still need to subscribe to the Stable channel as well.
 Commercial support is not available for Docker CE.
 
 For information about all Docker release channels and expectations about
-support, see [Docker channels](/engine/installation/#docker-channels).
+support, see [Docker channels]({{ site.baseurl }}/engine/installation/#docker-channels).
 
 <!-- This button toggles the div below, and hides itself when clicked -->
 <a id="ce-edge-readmore-btn" onclick="$(this).hide(); ga('send', 'event', 'ce-edge-readmore', 'click', 'CE engagement');" data-target="#ce-edge-readmore" data-toggle="collapse" class="button outline-btn collapse in">Read more about Docker CE Edge releases</a>
@@ -104,7 +104,7 @@ Continue reading, or go straight to [API and CLI](#api-and-cli),
   the container will not block. The `max-buffer-size` option controls the
   maximum size of the ring buffer. Defaults to `blocking`, which will cause the
   container to block if messages cannot be logged. See
-  [Options for all drivers](/engine/admin/logging/overview.md#options-for-all-drivers).
+  [Options for all drivers]({{ site.baseurl }}/engine/admin/logging/overview.md#options-for-all-drivers).
   {% include github-pr.md pr=28762 %}
 
 - It is no longer possible to inadvertently pull images on an architecture where
@@ -188,7 +188,7 @@ Continue reading, or go straight to [API and CLI](#api-and-cli),
 - Add topology-aware placement preferences for Swarm services. This feature
   allows services to be balanced over nodes based on a particular user-defined
   property, such as which datacenter or rack they are located in.
-  See [Control service scale and placement](/engine/swarm/services.md#control-service-scale-and-placement).
+  See [Control service scale and placement]({{ site.baseurl }}/engine/swarm/services.md#control-service-scale-and-placement).
   {% include github-pr.md pr=30725 %}
 
 - Add the ability to customize the stop signal which will be sent to nodes, when
@@ -241,7 +241,7 @@ containers and automate the development pipeline from a single environment.
 Choose the Edge channel to get access to the latest features, or the Stable
 channel for more predictability.
 
-[Learn more about Docker CE](/engine/installation/#platform-support-matrix){: class="button outline-btn"}
+[Learn more about Docker CE]({{ site.baseurl }}/engine/installation/#platform-support-matrix){: class="button outline-btn"}
 
 </div>
 <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
@@ -254,7 +254,7 @@ and supported to provide enterprises with the most secure container platform in
 the industry to modernize all applications. Docker EE Advanced comes with enterprise
 [add-ons](#docker-ee-add-ons) like UCP and DTR.
 
-[Learn more about Docker EE](/engine/installation/#platform-support-matrix){: class="button outline-btn"}
+[Learn more about Docker EE]({{ site.baseurl }}/engine/installation/#platform-support-matrix){: class="button outline-btn"}
 
 </div>
 </div><!-- end row -->
