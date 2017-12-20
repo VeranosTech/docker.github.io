@@ -132,7 +132,7 @@ function renderNav(docstoc) {
     {
       outputHorzTabs.push(' class="active"');
     }
-    outputHorzTabs.push('><a href="'+docstoc.horizontalnav[i].path+'">'+docstoc.horizontalnav[i].title+'</a></li>\n');
+    outputHorzTabs.push('><a href="/docs-korean-docker'+docstoc.horizontalnav[i].path+'">'+docstoc.horizontalnav[i].title+'</a></li>\n');
   }
   if (outputLetNav.length==0)
   {
@@ -152,7 +152,7 @@ function renderNav(docstoc) {
     {
       var highlightGloss = '';
       if (tagToLookup) highlightGloss = (glossary[i].term.toLowerCase()==tagToLookup.toLowerCase()) ? ' class="active currentPage"' : '';
-      outputLetNav.push('<li><a'+highlightGloss+' href="/glossary/?term=' + glossary[i].term + '">'+glossary[i].term+'</a></li>');
+      outputLetNav.push('<li><a'+highlightGloss+' href="/docs-korean-docker/glossary/?term=' + glossary[i].term + '">'+glossary[i].term+'</a></li>');
     }
   }
   document.getElementById('jsTOCHorizontal').innerHTML = outputHorzTabs.join('');
