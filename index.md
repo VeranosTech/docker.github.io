@@ -267,7 +267,7 @@ the industry to modernize all applications. Docker EE Advanced comes with enterp
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="docker-for-mac/"> <img src="../images/apple_48.svg" alt="Docker for Mac"> </a>
+                    <a href="docker-for-mac/"> <img src="..{{ site.baseurl }}/images/apple_48.svg" alt="Docker for Mac"> </a>
                 </div>
                 <h3 id="docker-for-mac"><a href="docker-for-mac/">Docker for Mac</a></h3>
                 <p>A native application using the macOS sandbox security model which delivers all Docker tools to your Mac.</p>
@@ -276,7 +276,7 @@ the industry to modernize all applications. Docker EE Advanced comes with enterp
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="docker-for-windows/"> <img src="../images/windows_48.svg" alt="Docker for Windows"> </a>
+                    <a href="docker-for-windows/"> <img src="..{{ site.baseurl }}/images/windows_48.svg" alt="Docker for Windows"> </a>
                 </div>
                 <h3 id="docker-for-windows"><a href="docker-for-windows/">Docker for Windows</a></h3>
                 <p>A native Windows application which delivers all Docker tools to your Windows computer.</p>
@@ -285,7 +285,7 @@ the industry to modernize all applications. Docker EE Advanced comes with enterp
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="engine/installation/linux/ubuntu/"> <img src="../images/linux_48.svg" alt="Docker for Linux"> </a>
+                    <a href="engine/installation/linux/ubuntu/"> <img src="..{{ site.baseurl }}/images/linux_48.svg" alt="Docker for Linux"> </a>
                 </div>
                 <h3 id="docker-for-linux"><a href="engine/installation/linux/ubuntu/">Docker for Linux</a></h3>
                 <p>Install Docker on a computer which already has a Linux distribution installed.</p>
@@ -300,7 +300,7 @@ the industry to modernize all applications. Docker EE Advanced comes with enterp
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="docker-cloud/"> <img src="../images/cloud_48.svg" alt="Docker Cloud"> </a>
+                    <a href="docker-cloud/"> <img src="..{{ site.baseurl }}/images/cloud_48.svg" alt="Docker Cloud"> </a>
                 </div>
                 <h3 id="docker-cloud"><a href="docker-cloud/">Docker Cloud</a></h3>
                 <p>A hosted service for building, testing, and deploying Docker images to your hosts.</p>
@@ -309,7 +309,7 @@ the industry to modernize all applications. Docker EE Advanced comes with enterp
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="docker-for-aws/"> <img src="../images/cloud_48.svg" alt="Docker for AWS"> </a>
+                    <a href="docker-for-aws/"> <img src="..{{ site.baseurl }}/images/cloud_48.svg" alt="Docker for AWS"> </a>
                 </div>
                 <h3 id="docker-cloud-providers"><a href="docker-for-aws/">Docker for AWS</a></h3>
                 <p>Deploy your Docker apps on AWS.</p>
@@ -318,7 +318,7 @@ the industry to modernize all applications. Docker EE Advanced comes with enterp
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="docker-for-azure/"> <img src="../images/cloud_48.svg" alt="Docker for Azure"> </a>
+                    <a href="docker-for-azure/"> <img src="..{{ site.baseurl }}/images/cloud_48.svg" alt="Docker for Azure"> </a>
                 </div>
                 <h3 id="docker-cloud-providers"><a href="docker-for-azure/">Docker for Azure</a></h3>
                 <p>Deploy your Docker apps on Azure.</p>
@@ -338,7 +338,7 @@ the industry to modernize all applications. Docker EE Advanced comes with enterp
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="datacenter/ucp/{{ site.ucp_version }}/guides/"> <img src="../images/UCP_48.svg" alt="Universal Control Plane"> </a>
+                    <a href="datacenter/ucp/{{ site.ucp_version }}/guides/"> <img src="..{{ site.baseurl }}/images/UCP_48.svg" alt="Universal Control Plane"> </a>
                 </div>
                 <h3 id="ucp"><a href="datacenter/ucp/{{ site.ucp_version }}/guides/">Universal Control Plane</a></h3>
                 <p>(UCP) Manage a cluster of on-premise Docker hosts like a single machine with this enterprise product.</p>
@@ -348,7 +348,7 @@ the industry to modernize all applications. Docker EE Advanced comes with enterp
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="datacenter/dtr/{{ site.dtr_version }}/guides/"> <img src="../images/dtr_48.svg" alt="Docker Trusted Registry"> </a>
+                    <a href="datacenter/dtr/{{ site.dtr_version }}/guides/"> <img src="..{{ site.baseurl }}/images/dtr_48.svg" alt="Docker Trusted Registry"> </a>
                 </div>
                 <h3 id="dtr"><a href="datacenter/dtr/{{ site.dtr_version }}/guides/">Docker Trusted Registry</a></h3>
                 <p>(DTR) An enterprise image storage solution you can install behind a firewall to manage images and access.</p>
@@ -367,7 +367,7 @@ the industry to modernize all applications. Docker EE Advanced comes with enterp
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="compose/overview/"> <img src="../images/compose_48.svg" alt="Docker Compose"> </a>
+                    <a href="compose/overview/"> <img src="..{{ site.baseurl }}/images/compose_48.svg" alt="Docker Compose"> </a>
                 </div>
                 <h3 id="compose"><a href="compose/overview/">Docker Compose</a></h3>
                 <p>Define application stacks built using multiple containers, services, and swarm configurations.</p>
@@ -377,7 +377,7 @@ the industry to modernize all applications. Docker EE Advanced comes with enterp
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="machine/overview/"> <img src="../images/machine_48.svg" alt="Docker Trusted Registry"> </a>
+                    <a href="machine/overview/"> <img src="..{{ site.baseurl }}/images/machine_48.svg" alt="Docker Trusted Registry"> </a>
                 </div>
                 <h3 id="machine"><a href="machine/overview/">Docker Machine</a></h3>
                 <p>Automate container provisioning on your network or in the cloud. Available for Windows, macOS, or Linux.</p>
