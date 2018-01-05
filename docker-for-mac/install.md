@@ -1,22 +1,21 @@
 ---
-description: How to install Docker for Mac
+description: 도커 포 맥()Docker for Mac) 설치
 keywords: mac, beta, alpha, install, download
 title: Install Docker for Mac
 ---
 
-Docker for Mac is a [Docker Community Edition (CE)](https://www.docker.com/community-edition) app. The Docker for Mac
-install package includes everything you need to run Docker on a Mac. This topic
-describes pre-install considerations, and how to download and install Docker for
-Mac.<br><br>
+"도커 포 맥"은 [Docker Community Edition (CE)](https://www.docker.com/community-edition) 앱이다.
+도커 포 맥 설치 패키지에는 맥에서 도커를 돌리기 위한 모든 것이 포함되어 있다. 
+여기에서는 설치전에 고려해야하는 사항과 다운로드 및 설치 방법을 설명한다.<br><br>
 
-> **Already have Docker for Mac?** If you already have
-Docker for Mac installed, and are ready to get started, skip to
-[Get started with Docker for Mac](index.md) for a quick tour of
-the command line, preferences, and tools.
+> **이미 도커 포 맥이 있는 경우** 만약 이미 도커 포 맥을
+설치해서 사용하고 있다면 이제 시작할 수 있으므로 
+[도커 포 맥 시작하기](index.md)로 가서 커맨드라인, 설정, 도구
+등을 살펴볼 수 있다. 
 
->**Looking for Release Notes?** [Get release notes for all versions here](release-notes.md).
+>**릴리스 노트** [모든 버전에 대한 릴리스 노트](release-notes.md).
 
-## Download Docker for Mac
+## 도커 포 맥 다운로드
 
 If you have not already done so, please install Docker for Mac. You can download
 installers from the Stable or beta channel.
@@ -80,10 +79,12 @@ explanation and list of prerequisites.
    installing another. For more about this, see the
    [FAQs about Stable and Edge channels](faqs.md#stable-and-edge-channels).
 
-##  What to know before you install
+##  설치 전에 알아야 하는 사항 
 
-> README FIRST for Docker Toolbox and Docker Machine users
+> 도커 툴박스와 도커 머신 사용자들은 먼저 이 사항을 읽어야 한다.
 >
+> 만약 이미 맥에서 도커를 쓰고 있다면 우선 
+> [도커 포 맥과 도커 툴박스 비교](docker-toolbox.md)
 >If you are already running Docker on your machine, first read
 [Docker for Mac vs. Docker Toolbox](docker-toolbox.md) to understand the
 impact of this installation on your existing setup, how to set your environment

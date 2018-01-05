@@ -1,5 +1,5 @@
 ---
-description: Getting Started
+description: 시작하기
 keywords: mac, beta, edge, alpha, tutorial
 redirect_from:
 - /mackit/
@@ -16,24 +16,26 @@ toc_max: 4
 toc_min: 1
 ---
 
-Welcome to Docker for Mac!
+"Docker for Mac"
 
-Docker is a full development platform for creating containerized apps, and
-Docker for Mac is the best way to get started with Docker on a Mac.
+도커는 컨테이너화된 앰을 개발하기위한 플랫폼이고 
+"Docker for Mac"은 맥에서 도커를 시작하기 위한 최선의 방법이다.
 
-> **Got Docker for Mac?** If you have not yet installed Docker for Mac,
-> see [Install Docker for Mac](install.md) for an explanation of stable and edge
-> channels, system requirements, and download/install information.
+> **"Docker for Mac" 구하기** 아직 "Docker for Mac"을 설치하지 않았다면
+> [Docker for Mac](install.md) 문서를 참조한다.for an explanation of stable and edge
+> 안정화 버전 채널과 최신 버전 채널, 그리고 시스템 요구사항과 아운로드/설치 
+> 정보를 얻을 수 있다.
 
->**Looking for system requirements?** Check out
-> [What to know before you install](install.md#what-to-know-before-you-install),
-> which has moved to the new install topic.
+>**시스템 요구조건** 
+> [설치하기 전에](install.md#what-to-know-before-you-install) 문서에는
+> 신규 설치에 관한 내용이 있다. 설치 전에 확인하라.
 {: id="what-to-know-before-you-install" }
 
-## Check versions of Docker Engine, Compose, and Machine
+## 도커 엔진, 컴포즈, 머신의 버전 확인
 
-Run these commands to test if your versions of `docker`, `docker-compose`, and
-`docker-machine` are up-to-date and compatible with `Docker.app`.
+`docker`, `docker-compose`, 그리고 `docker-machine` 버전이
+최신버전이고 `Docker.app`과 호환성이 있는지 확인하려면
+다음 명령을 실행한다.
 
 ```shell
 $ docker --version

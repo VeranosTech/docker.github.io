@@ -1,5 +1,5 @@
 ---
-description: Docker for Mac and Docker Toolbox
+description: 도커 포 맥과 도커 툴박스 비교
 keywords: mac, windows, alpha, beta, toolbox, docker-machine, tutorial
 redirect_from:
 - /mackit/docker-toolbox/
