@@ -1,5 +1,5 @@
 ---
-description: 시작하기
+description: 도커 포 맥 시작하기
 keywords: mac, beta, edge, alpha, tutorial
 redirect_from:
 - /mackit/
@@ -11,7 +11,7 @@ redirect_from:
 - /engine/installation/mac/
 - /docker-for-mac/index/
 - /docker-for-mac/osx/
-title: Get started with Docker for Mac
+title: 도커 포 맥 시작하기
 toc_max: 4
 toc_min: 1
 ---

@@ -3,14 +3,13 @@ description: 도커 포 맥과 도커 툴박스 비교
 keywords: mac, windows, alpha, beta, toolbox, docker-machine, tutorial
 redirect_from:
 - /mackit/docker-toolbox/
-title: Docker for Mac vs. Docker Toolbox
+title: 도커 포 맥과 도커 툴박스 비교
 ---
 
-If you already have an installation of Docker Toolbox, please read these topics
-first to learn how Docker for Mac and Docker Toolbox differ, and how they can
-coexist.
+만약 도커 툴박스를 이미 설치하였다면 먼저 이 문서를 읽고 도커 포 맥과 
+도커 툴박스의 차이점, 그리고 두 시스템이 어떻게 공존할 수 있는지 알 수 있다.
 
-## The Docker Toolbox environment
+## 도커 툴박스 환경
 
 Docker Toolbox installs `docker`, `docker-compose`, and `docker-machine` in
 `/usr/local/bin` on your Mac. It also installs VirtualBox. At installation time,
@@ -29,7 +28,7 @@ This setup is shown in the following diagram.
 ![Docker Toolbox Install](images/toolbox-install.png)
 
 
-## The Docker for Mac environment
+## 도커 포 맥 환경
 
 Docker for Mac is a Mac native application, that you install in `/Applications`.
 At installation time, it creates symlinks in `/usr/local/bin` for `docker` and
