@@ -1,5 +1,5 @@
 ---
-description: 도커 포 맥()Docker for Mac) 설치
+description: 도커 포 맥(Docker for Mac) 설치
 keywords: mac, beta, alpha, install, download
 title: Install Docker for Mac
 ---
@@ -102,17 +102,8 @@ href="troubleshoot/#diagnose-problems-send-feedback-and-create-github-issues">�
     무제한 모드(Unrestricted Mode) 등의 인텔 메모리 관리 (MMU) 
     가상화 기능이 있는 2010 이상의 최신 모형이어야 한다. 
     터미널에서 컴퓨터 하드웨어가 돌아가는지 확인하기 위해 
-    다음 명령이 실행가능하지 확인한다.:
-    `sysctl kern.hv_support`
+    다음 명령이 실행가능하지 확인한다.: `sysctl kern.hv_support`
     
-  - Mac hardware must be a 2010 or newer model, with Intel's hardware support for memory
-    management unit (MMU) virtualization; i.e., Extended Page Tables (EPT) and
-    Unrestricted Mode. You can check to see if your machine has this support by
-    running the following command  in a terminal: `sysctl kern.hv_support`
-    
-    ::
-    `sysctl kern.hv_support`
-
   - macOS El Capitan 10.11 and newer macOS releases are supported. At a minimum,
     Docker for Mac requires macOS Yosemite 10.10.3 or newer, with the caveat
     that going forward 10.10.x is a use-at-your-own risk proposition.
