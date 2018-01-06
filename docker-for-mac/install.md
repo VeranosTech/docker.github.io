@@ -104,6 +104,8 @@ href="troubleshoot/#diagnose-problems-send-feedback-and-create-github-issues">�
     터미널에서 컴퓨터 하드웨어가 돌아가는지 확인하기 위해 
     다음 명령이 실행가능하지 확인한다.: `sysctl kern.hv_support`
     
+  - macOS 엘 캐피탄 10.11 이후의 버전도 지원한다.
+ 
   - macOS El Capitan 10.11 and newer macOS releases are supported. At a minimum,
     Docker for Mac requires macOS Yosemite 10.10.3 or newer, with the caveat
     that going forward 10.10.x is a use-at-your-own risk proposition.
