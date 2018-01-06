@@ -16,13 +16,13 @@ toc_max: 4
 toc_min: 1
 ---
 
-"Docker for Mac"
+
 
 도커는 컨테이너화된 앰을 개발하기위한 플랫폼이고 
-"Docker for Mac"은 맥에서 도커를 시작하기 위한 최선의 방법이다.
+도커 포 맥은 맥에서 도커를 시작하기 위한 최선의 방법이다.
 
-> **"Docker for Mac" 구하기** 아직 "Docker for Mac"을 설치하지 않았다면
-> [Docker for Mac](install.md) 문서를 참조한다.for an explanation of stable and edge
+> **도커 포 맥 구하기** 아직 도커 포 맥을 설치하지 않았다면
+> [도커 포 맥 설치](install.md) 문서를 참조한다.for an explanation of stable and edge
 > 안정화 버전 채널과 최신 버전 채널, 그리고 시스템 요구사항과 아운로드/설치 
 > 정보를 얻을 수 있다.
 
