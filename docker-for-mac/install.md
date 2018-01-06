@@ -4,7 +4,7 @@ keywords: mac, beta, alpha, install, download
 title: Install Docker for Mac
 ---
 
-"도커 포 맥"은 [Docker Community Edition (CE)](https://www.docker.com/community-edition) 앱이다.
+도커 포 맥은 [도커 커뮤니티 에디션 (CE)](https://www.docker.com/community-edition) 앱이다.
 도커 포 맥 설치 패키지에는 맥에서 도커를 돌리기 위한 모든 것이 포함되어 있다. 
 여기에서는 설치전에 고려해야하는 사항과 다운로드 및 설치 방법을 설명한다.<br><br>
 
@@ -40,7 +40,7 @@ href="troubleshoot/#diagnose-problems-send-feedback-and-create-github-issues">�
   </tr>
   <tr valign="top">
     <td width="50%">
-    이 인스톨러는 충분히 검사되었다. 만약 신뢰성있는 플랫폼을 원한다면 이 채널을 선택한다.
+    이 인스톨러는 충분히 검증되었다. 만약 신뢰성있는 플랫폼을 원한다면 이 채널을 선택한다.
     여기에서는 도커 엔진의 안정화 버전을 배포한다.<br><br>
     이 채널에서는 사용 통계나 다른 데이터를 보낼지 아닐지 선택할 수 있다.<br><br>
     안정화 버전은 분기에 한 번 배포한다.
@@ -72,7 +72,7 @@ href="troubleshoot/#diagnose-problems-send-feedback-and-create-github-issues">�
 </table>
 
 * 도커 포 맥은 인텍의 MMU 가상화 하드웨어 지원 기능이 있는 2010 이후의 맥과 
-  OS X 엘 캐피탄 10.11 이상의 최신 버전 macOS을 요구한다. 
+  OS X 엘 캐피탄 10.11 이상의 최신 버전 맥OS을 요구한다. 
   앱은 10.10.3 요세미티 이상에서도 돌아가지만 제한 사항이 있다. 
   요구사항에 대한 자세한 내용에 대해서는 [설치 전에 알아야 할 것](#what-to-know-before-you-install)을 참조한다.
 
@@ -104,26 +104,25 @@ href="troubleshoot/#diagnose-problems-send-feedback-and-create-github-issues">�
     터미널에서 컴퓨터 하드웨어가 돌아가는지 확인하기 위해 
     다음 명령이 실행가능하지 확인한다.: `sysctl kern.hv_support`
     
-  - macOS 엘 캐피탄 10.11 이후의 버전도 지원한다.
+  - 맥OS 엘 캐피탄 10.11 이후의 버전을 지원한다.
+    최소 사항은 맥OS 요세미티 10.10.3 이후 버전이지만
+    10.10.x 버전을 사용할 때는 발생하는 위험에 대해서는 보장하지 않는다.
  
-  - macOS El Capitan 10.11 and newer macOS releases are supported. At a minimum,
-    Docker for Mac requires macOS Yosemite 10.10.3 or newer, with the caveat
-    that going forward 10.10.x is a use-at-your-own risk proposition.
+  - 도커 포 맥 안정화 버전 1.13과 그 시점의 엣지 버전부터는
+    더이상 맥OS 요세미티 10.10에 대한 이슈를 지원하지 않는다.
+    맥OS 요세미티 10.10 자체가 지원이 중단되었으므로 이후의 버전에서는 
+    맥OS 요세미티 10.10에 대한 작업은 중단한다.
+    더 최신 버전의 맥OS로 업그레이드하기를 권장한다.
 
-  - Starting with Docker for Mac Stable release 1.13, and concurrent
-    Edge releases, we will no longer address issues specific to macOS Yosemite
-    10.10. In future releases, Docker for Mac could stop working on macOS Yosemite
-    10.10 due to the deprecated status of this macOS version. We recommend
-    upgrading to the latest version of macOS.
+  - 4GB 이상의 메모리
 
-  - At least 4GB of RAM
+  - 버전 4.3.30 이전의 VirtualBox가 설치되어 있으면 안된다.(도커 포 맥과 충돌한다.)
+    더 최신 버전의 VirtualBox는 괜찮다.
 
-  - VirtualBox prior to version 4.3.30 must NOT be installed (it is incompatible
-    with Docker for Mac). If you have a newer version of VirtualBox installed, it's fine.
+  > **주의 사항**: 만약 시스템이 이러한 요구조건을 만족하지 못하면
+  > HyperKit 대신에 오라클 VirtualBox를 이용하는
+  > [도커 툴박스](/toolbox/overview.md)를 깔면 된다.
 
-  > **Note**: If your system does not satisfy these requirements, you can
-  > install [Docker Toolbox](/toolbox/overview.md), which uses Oracle VirtualBox
-  > instead of HyperKit.
 
 * **What the install includes**: The installation provides
   [Docker Engine](/engine/userguide/), Docker CLI client,
