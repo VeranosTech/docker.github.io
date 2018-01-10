@@ -51,7 +51,7 @@ docker-machine version 0.10.0, build 76ed2a6
 > **Note**: The above is an example. Your output will differ if you are running
 > different (e.g., newer) versions.
 
-## Explore the application and run examples
+## 애플리케이션 가동 및 예제 실행
 
 1.  Open a command-line terminal, and run some Docker commands to verify that
     Docker is working as expected.

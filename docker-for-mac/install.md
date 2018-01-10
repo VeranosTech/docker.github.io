@@ -1,10 +1,10 @@
 ---
 description: 도커 포 맥(Docker for Mac) 설치
 keywords: mac, beta, alpha, install, download
-title: Install Docker for Mac
+title: 도커 포 맥(Docker for Mac) 설치
 ---
 
-도커 포 맥은 [도커 커뮤니티 에디션 (CE)](https://www.docker.com/community-edition) 앱이다.
+도커 포 맥(Docker for Mac)은 [도커 커뮤니티 에디션 (CE)](https://www.docker.com/community-edition) 앱이다.
 도커 포 맥 설치 패키지에는 맥에서 도커를 돌리기 위한 모든 것이 포함되어 있다. 
 여기에서는 설치전에 고려해야하는 사항과 다운로드 및 설치 방법을 설명한다.<br><br>
 
@@ -124,54 +124,54 @@ href="troubleshoot/#diagnose-problems-send-feedback-and-create-github-issues">�
   > [도커 툴박스](/toolbox/overview.md)를 깔면 된다.
 
 
-* **What the install includes**: The installation provides
-  [Docker Engine](/engine/userguide/), Docker CLI client,
-  [Docker Compose](/compose/overview/), [Docker Machine](/machine/overview/), and [Kitematic](/kitematic/userguide.md).
+* **인스톨러에 포함된 것**: 다음과 같은 프로그램이 설치된다.
+  [도커 엔진(Docker Engine)](/engine/userguide/), 도커 명령행 클라이언트,
+  [도커 컴포즈()Docker Compose)](/compose/overview/), 
+  [도커 머신(Docker Machine)](/machine/overview/), 그리고 [카이트매틱(Kitematic)](/kitematic/userguide.md).
 
 ## Install and run Docker for Mac
 
-1.  Double-click `Docker.dmg` to open the installer, then drag Moby the whale to
-    the Applications folder.
+1.  `Docker.dmg`를 더블클릭해서 인스톨러를 열고 고래 모비(Moby) 아이콘을 애플리케이션 폴더로 드래그한다.
 
-	  ![Install Docker app](/docker-for-mac/images/docker-app-drag.png)
+	  ![Docker app 설치](/docs-korean-docker/docker-for-mac/images/docker-app-drag.png)
 
-2.  Double-click `Docker.app` in the Applications folder to start Docker. (In the example below, the Applications folder is in "grid" view mode.)
+2.  애플리케이션 폴더안의 `Docker.app`를 더블클릭해서 도커를 시작한다. 
+    (다음 예에서는 애플리케이션 폴더가 그리드 뷰 모드로 되어 있다.)
+    
+	  ![Docker app in Hockeyapp](/docs-korean-docker/docker-for-mac/images/docker-app-in-apps.png)
 
-	  ![Docker app in Hockeyapp](/docker-for-mac/images/docker-app-in-apps.png)
+	  시작한 후에는 `Docker.app` 이증을 위해 시스템 암호를 물어본다.
+	  네트워크 구성요소와 도커앱을 연결하기 위해서는 관리자 권한이 필요하다.
+	  
+	  도커가 가동하면 화면 위의 상태바에 고래 아이콘이 나타나고 터미널에서도 도커를 사용할 수 있게된다.
 
-	  You will be asked to authorize `Docker.app` with your system password after you launch it.
-	  Privileged access is needed to install networking components and links to the Docker apps.
+	  ![메뉴바의 고래 아이콘](/docs-korean-docker/docker-for-mac/images/whale-in-menu-bar.png)
 
-	  The whale in the top status bar indicates that Docker is running, and accessible from a terminal.
+    만약 앱을 설치한 직후라면 다음 진행을 위한 성공 메세지와 문서 링크가 나타난다.
+    상태바에 있는 고래아이콘(![whale
+    menu](/docs-korean-docker/docker-for-mac/images/whale-x.png){: .inline}) 을 클릭하면 팝업이 사라진다.
 
-	  ![Whale in menu bar](/docker-for-mac/images/whale-in-menu-bar.png)
+	  ![시작 정보](/docs-korean-docker/docker-for-mac/images/mac-install-success-docker-cloud.png)
 
-    If you just installed the app, you also get a success message with suggested
-    next steps and a link to this documentation. Click the whale (![whale
-    menu](/docker-for-mac/images/whale-x.png){: .inline}) in the status bar to
-    dismiss this popup.
+3.  고래 아이콘(![whale menu](/docs-korean-docker/docker-for-mac/images/whale-x.png){: .inline})을
+    클릭해서 설정과 옵션을 볼 수 있다.
 
-	  ![Startup information](/docker-for-mac/images/mac-install-success-docker-cloud.png)
+	  ![도커 컨텍스트 메뉴](images/menu.png)
 
-3.  Click the whale (![whale menu](/docker-for-mac/images/whale-x.png){: .inline}) to get Preferences and other options.
+4.  **About Docker**를 선택하면 최신 버전인지 확인할 수 있다.
 
-	  ![Docker context menu](images/menu.png)
+축하한다. 이제 도커 포 맥을 사용하고 있다.
 
-4.  Select **About Docker** to verify that you have the latest version.
+## 다음으로 읽어야 할 내용
 
-Congratulations! You are up and running with Docker for Mac.
+* [시작하기](index.md)에는 도커 포 맥에 대한 전반적인 소개,
+기초적인 도커 명령과 예, 도움을 얻는 방법 그리고 도커 포 맥 가이드의
+모든 주제에 대한 링크가 있다.
 
-## Where to go next
+* [문제해결](troubleshoot.md)에서는 공통적인 문제와 해결법, 진단 실행 및 제출 방법, 이슈 제출 방법이 있다.
 
-* [Getting started](index.md) provides an overview of Docker for Mac,
-basic Docker command examples, how to get help or give feedback, and
-links to all topics in the Docker for Mac guide.
+* [FAQs](faqs.md)에는 자주하는 질문과 답이 있다.
 
-* [Troubleshooting](troubleshoot.md) describes common problems,
-workarounds, how to run and submit diagnostics, and submit issues.
+* [릴리스 노트](release-notes.md)에는 구성요소 업데이트와 신기능 그리고 안정화 버전/엣지 버전 릴리스 관련된 내용이 있다.
 
-* [FAQs](faqs.md) provides answers to frequently asked questions.
-
-* [Release Notes](release-notes.md) lists component updates, new features, and improvements associated with Stable and Edge releases.
-
-* [Get Started with Docker](/get-started/) provides a general Docker tutorial.
+* [도커 시작하기](/get-started/)는 일반적인 도커 튜토리얼이다.
